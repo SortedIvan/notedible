@@ -17,7 +17,7 @@ namespace NotEdible.models
             _map = new Tile[_mapSize.X, _mapSize.Y];
             _mapTextures = new List<Texture2D>
             {
-
+                Globals.content.Load<Texture2D>("MapTexture/dirt_E.png");
             };
         }
     }
