@@ -4,13 +4,13 @@ using Microsoft.Xna.Framework.Input;
 
 namespace NotEdible.models
 {
-    public class Tilemap
+    public class Tile
     {
         private Texture2D _texture;
         private Vector2 _position;
         private int _tilenr;
 
-        public Tilemap(Texture2D texture, Vector2 position, int tilenr)
+        public Tile(Texture2D texture, Vector2 position, int tilenr)
         {
             this._texture = texture;
             this._position = position;
