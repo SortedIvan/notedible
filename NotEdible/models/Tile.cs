@@ -17,6 +17,11 @@ namespace NotEdible.models
             this._tilenr = tilenr;
         }
 
+        public void Draw()
+        {
+            Globals.SpriteBatch.Draw(_texture, _position, Color.White);
+        }
+
         public Texture2D GetTexture()
         {
             return this._texture;

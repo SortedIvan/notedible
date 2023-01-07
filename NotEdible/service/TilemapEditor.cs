@@ -5,9 +5,7 @@ namespace NotEdible.service
 {
     public class TilemapEditor
     {
-        private List<Tilemap> tilemaps;
 
-        
 
 
     }

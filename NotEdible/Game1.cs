@@ -19,13 +19,13 @@ namespace NotEdible
 
         protected override void Initialize()
         {
-            _graphics.PreferredBackBufferWidth = 1024;
-            _graphics.PreferredBackBufferHeight = 768;
+            _graphics.PreferredBackBufferWidth = 1600;
+            _graphics.PreferredBackBufferHeight = 900;
             _graphics.ApplyChanges();
 
-            Globals.Content = Content;
+            Globals.content = Content;
 
-            _gameManager = new();
+            _gameManager = new GameManager();
 
             base.Initialize();
         }
